@@ -1,0 +1,4 @@
+CFBundleDisplayName = "فيتنام ام";
+NSCameraUsageDescription = "يستخدم التطبيق الكاميرا لمسح أكواد الاستبدال والتقاط صورة الملف الشخصي.";
+NSPhotoLibraryUsageDescription = "يحتاج التطبيق إلى الوصول إلى معرض الصور لاختيار صورة الملف الشخصي.";
+NSPhotoLibraryAddUsageDescription = "يحتاج التطبيق إلى إذن لحفظ الصور في معرض الصور.";

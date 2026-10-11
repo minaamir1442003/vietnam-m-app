@@ -1,0 +1,60 @@
+name: project_one
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+7
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  retrofit: ^4.7.1
+  logger: ^2.6.0
+  json_annotation: ^4.9.0
+  injectable: ^2.5.1
+  shared_preferences: ^2.5.3
+  pretty_dio_logger: ^1.4.0
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.0
+  flutter_secure_storage: ^9.2.4
+  flutter_easyloading: ^3.0.5
+  get_it: ^8.2.0
+  supabase_flutter: ^2.12.0
+  flutter_localization: ^0.3.3
+  image_picker: ^1.2.1
+  intl: any
+  intl_utils: ^2.8.13
+  smooth_page_indicator: ^2.0.1
+  animate_do: ^4.2.0
+  cached_network_image: ^3.4.1
+  flutter_image_slideshow: any
+  url_launcher: ^6.3.2
+  pin_code_fields: ^8.0.1
+  mobile_scanner: ^7.1.4
+  shimmer: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: ^10.0.1
+  build_runner: ^2.6.0
+  injectable_generator: any
+  json_serializable: ^6.10.0
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/appIcon.png
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
